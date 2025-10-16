@@ -1,0 +1,61 @@
+.footer-container {
+  padding-top: 2rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.footer-container .navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer-container .brand-name {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+  color: #198754; /* Matching the green from your navbar button */
+}
+
+.footer-container h5 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.footer-container ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-container ul li a:hover {
+  color: #198754 !important; /* Green hover effect matching navbar */
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover i {
+  color: #198754 !important; /* Green hover effect */
+}
+
+.payment-methods i {
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer-container .navbar-brand {
+    justify-content: center;
+  }
+  
+  .footer-container .text-md-start, 
+  .footer-container .text-md-end {
+    text-align: center !important;
+  }
+  
+  .footer-container .social-icons {
+    text-align: center;
+  }
+}
